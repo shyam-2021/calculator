@@ -8,5 +8,12 @@ printf("enter the value for b");
 scanf("%d",b);
 c=a/b;
 printf("the value is : %d ",c);
+if (c==0)
+{ 
+printf("the remainder is 0 ");
 }
-
+else 
+{
+printf ("the remainder is 1 ");
+}
+}
